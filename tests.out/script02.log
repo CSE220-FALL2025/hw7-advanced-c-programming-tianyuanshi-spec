@@ -1,0 +1,14 @@
+==7290== Memcheck, a memory error detector
+==7290== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7290== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7290== Command: ./bin/execute_script script02
+==7290== 
+1 6 -9 77 189 90 150 110
+==7290== 
+==7290== HEAP SUMMARY:
+==7290==     in use at exit: 0 bytes in 0 blocks
+==7290==   total heap usage: 13 allocs, 13 frees, 9,080 bytes allocated
+==7290== 
+==7290== All heap blocks were freed -- no leaks are possible
+==7290== 
+==7290== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

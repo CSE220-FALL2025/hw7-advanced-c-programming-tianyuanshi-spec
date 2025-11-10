@@ -1,0 +1,14 @@
+==7340== Memcheck, a memory error detector
+==7340== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7340== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7340== Command: ./bin/execute_script script12
+==7340== 
+6 7 -4068 10074 10664 -18266 3049 -23650 -17499 19004 -7341 5186 5146 -90 27870 35267 -49563 15570 -17855 48778 -48594 -22230 -9421 -17250 40115 16156 -7064 -19737 -17124 19508 7485 4862 10460 -35550 23636 -20186 -26608 -1744 26567 19633 21236 -39179 18428 70535
+==7340== 
+==7340== HEAP SUMMARY:
+==7340==     in use at exit: 0 bytes in 0 blocks
+==7340==   total heap usage: 16 allocs, 16 frees, 9,644 bytes allocated
+==7340== 
+==7340== All heap blocks were freed -- no leaks are possible
+==7340== 
+==7340== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

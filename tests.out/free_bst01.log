@@ -1,0 +1,13 @@
+==7415== Memcheck, a memory error detector
+==7415== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7415== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7415== Command: ./bin/free_bst01
+==7415== 
+==7415== 
+==7415== HEAP SUMMARY:
+==7415==     in use at exit: 0 bytes in 0 blocks
+==7415==   total heap usage: 6 allocs, 6 frees, 108 bytes allocated
+==7415== 
+==7415== All heap blocks were freed -- no leaks are possible
+==7415== 
+==7415== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
