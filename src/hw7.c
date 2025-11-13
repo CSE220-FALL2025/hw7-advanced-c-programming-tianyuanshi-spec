@@ -1,7 +1,9 @@
 #include "hw7.h"
 //helper
 static const char* skip_sp(const char *s){//skip space
-    while(*s && isspace((unsigned char)*s)) ++s;
+    while(*s && isspace((unsigned char)*s)){
+        s++;
+    }
     return s;
 }
 
@@ -60,7 +62,7 @@ void free_bst_sf(bst_sf *root) {
 }
 
 static void free_bst_keep(bst_sf *root, matrix_sf *keep) {
-    if (!root) return;
+    if (root == NULL) return;
     free_bst_keep(root->left_child, keep);
     free_bst_keep(root->right_child, keep);
     if (root->mat != keep) {
@@ -161,10 +163,11 @@ typedef struct {
 //helper and method for stack
 static void cs_init(CharStack *s, int cap){
     s->data = (char*)malloc((unsigned int)cap);
-    s->top = -1; s->cap = cap;
+    s->top = -1;
+    s->cap = cap;
 }
 static int  cs_empty(CharStack *s){
-    return s->top < 0;
+    return (s->top < 0);
 }
 static void cs_push(CharStack *s, char ch){
     s->data[++s->top] = ch;
@@ -200,7 +203,8 @@ char* infix2postfix_sf(char *infix){
     char *out = (char*)malloc(n + 8);
     unsigned int oi = 0;
 
-    CharStack st; cs_init(&st, (int)n + 8);
+    CharStack st;
+    cs_init(&st, (int)n + 8);
 
     for(unsigned int i = 0;i < n;){
         char ch = infix[i];

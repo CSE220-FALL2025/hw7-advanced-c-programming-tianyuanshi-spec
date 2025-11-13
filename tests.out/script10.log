@@ -1,14 +1,14 @@
-==7306== Memcheck, a memory error detector
-==7306== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==7306== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==7306== Command: ./bin/execute_script script10
-==7306== 
+==4008== Memcheck, a memory error detector
+==4008== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==4008== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==4008== Command: ./bin/execute_script script10
+==4008== 
 5 5 6264 -25436 10326 15774 23091 156 -31252 19633 -7047 15344 51308 2268 -12862 7573 -7087 45722 14780 41569 -7283 8815 22125 14915 23325 -6118 -1202
-==7306== 
-==7306== HEAP SUMMARY:
-==7306==     in use at exit: 0 bytes in 0 blocks
-==7306==   total heap usage: 17 allocs, 17 frees, 9,852 bytes allocated
-==7306== 
-==7306== All heap blocks were freed -- no leaks are possible
-==7306== 
-==7306== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==4008== 
+==4008== HEAP SUMMARY:
+==4008==     in use at exit: 0 bytes in 0 blocks
+==4008==   total heap usage: 17 allocs, 17 frees, 9,852 bytes allocated
+==4008== 
+==4008== All heap blocks were freed -- no leaks are possible
+==4008== 
+==4008== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

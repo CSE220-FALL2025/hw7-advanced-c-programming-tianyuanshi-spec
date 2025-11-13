@@ -1,14 +1,14 @@
-==7393== Memcheck, a memory error detector
-==7393== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==7393== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==7393== Command: ./bin/execute_script script20
-==7393== 
+==4105== Memcheck, a memory error detector
+==4105== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==4105== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==4105== Command: ./bin/execute_script script20
+==4105== 
 5 5 6264 -25436 10326 15774 23091 156 -31252 19633 -7047 15344 51308 2268 -12862 7573 -7087 45722 14780 41569 -7283 8815 22125 14915 23325 -6118 -1202
-==7393== 
-==7393== HEAP SUMMARY:
-==7393==     in use at exit: 0 bytes in 0 blocks
-==7393==   total heap usage: 21 allocs, 21 frees, 9,968 bytes allocated
-==7393== 
-==7393== All heap blocks were freed -- no leaks are possible
-==7393== 
-==7393== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==4105== 
+==4105== HEAP SUMMARY:
+==4105==     in use at exit: 0 bytes in 0 blocks
+==4105==   total heap usage: 21 allocs, 21 frees, 9,968 bytes allocated
+==4105== 
+==4105== All heap blocks were freed -- no leaks are possible
+==4105== 
+==4105== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
