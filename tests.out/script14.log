@@ -1,0 +1,14 @@
+==4057== Memcheck, a memory error detector
+==4057== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==4057== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==4057== Command: ./bin/execute_script script14
+==4057== 
+4 4 1724408038 2017675984 -1924673041 1162313402 837742220 -1847939140 231655109 -1884929802 428939948 127846550 -594940785 -698480402 329175909 -1628706145 -232074743 2140229072
+==4057== 
+==4057== HEAP SUMMARY:
+==4057==     in use at exit: 0 bytes in 0 blocks
+==4057==   total heap usage: 30 allocs, 30 frees, 10,404 bytes allocated
+==4057== 
+==4057== All heap blocks were freed -- no leaks are possible
+==4057== 
+==4057== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

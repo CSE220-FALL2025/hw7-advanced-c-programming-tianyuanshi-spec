@@ -1,0 +1,13 @@
+==4124== Memcheck, a memory error detector
+==4124== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==4124== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==4124== Command: ./bin/free_bst01
+==4124== 
+==4124== 
+==4124== HEAP SUMMARY:
+==4124==     in use at exit: 0 bytes in 0 blocks
+==4124==   total heap usage: 6 allocs, 6 frees, 108 bytes allocated
+==4124== 
+==4124== All heap blocks were freed -- no leaks are possible
+==4124== 
+==4124== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
